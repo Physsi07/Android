@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tsf.catchtteball.Main"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Score: 300"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:text="Tap To Start"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/plane"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/plane" />
+
+        <ImageView
+            android:id="@+id/Num1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/num1" />
+
+        <ImageView
+            android:id="@+id/Num66"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/num66" />
+
+        <ImageView
+            android:id="@+id/Num202"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/num202" />
+
+
+    </FrameLayout>
+
+</LinearLayout>
