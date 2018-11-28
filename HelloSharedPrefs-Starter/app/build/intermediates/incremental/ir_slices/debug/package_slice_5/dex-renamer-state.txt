@@ -1,0 +1,4 @@
+#Thu Apr 26 16:43:41 EDT 2018
+base.0=/Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/build/intermediates/transforms/dexMerger/debug/20
+path.0=classes.dex
+renamed.0=classes.dex

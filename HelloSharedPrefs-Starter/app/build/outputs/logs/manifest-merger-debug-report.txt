@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/cc17595a9de76ae3e234bad13fe52149/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/8c2709f0a9bde044cd3239d382e55bc9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/8df610736e1fa8029a393c2fc9b2acaa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/0d489ea58a98988a250119ad053e5bc3/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+	package
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:16:5-51
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:1-32:12
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:15:11-69
+application
+ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:18:5-30:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/cc17595a9de76ae3e234bad13fe52149/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/cc17595a9de76ae3e234bad13fe52149/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/8c2709f0a9bde044cd3239d382e55bc9/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/8c2709f0a9bde044cd3239d382e55bc9/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/8df610736e1fa8029a393c2fc9b2acaa/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/8df610736e1fa8029a393c2fc9b2acaa/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/0d489ea58a98988a250119ad053e5bc3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/0d489ea58a98988a250119ad053e5bc3/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:23:9-40
+activity#com.example.android.hellosharedprefs.MainActivity
+ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:24:9-29:20
+	android:name
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/cc17595a9de76ae3e234bad13fe52149/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/cc17595a9de76ae3e234bad13fe52149/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/8c2709f0a9bde044cd3239d382e55bc9/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/8c2709f0a9bde044cd3239d382e55bc9/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/8df610736e1fa8029a393c2fc9b2acaa/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/8df610736e1fa8029a393c2fc9b2acaa/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/0d489ea58a98988a250119ad053e5bc3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/0d489ea58a98988a250119ad053e5bc3/AndroidManifest.xml:20:5-43
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/Starlyn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/cc17595a9de76ae3e234bad13fe52149/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Starlyn/Desktop/android-fundamentals-starter-apps-master/HelloSharedPrefs-Starter/app/src/main/AndroidManifest.xml
