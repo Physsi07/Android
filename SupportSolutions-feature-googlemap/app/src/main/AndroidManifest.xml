@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tech.niocoders.com.supportsolutions">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:requiresSmallestWidthDp="600" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".supportsolutions"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PaymentActivity"
+            android:parentActivityName=".supportsolutions">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDBEbyUWcLHzONWLwKO83VfEnkrw9ZGlTQ"/>
+
+
+        <activity
+            android:name=".ss_camera_helper"
+            android:parentActivityName=".supportsolutions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".supportsolutions" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:parentActivityName=".supportsolutions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".supportsolutions" />
+        </activity>
+        <activity
+            android:name=".signup"
+            android:parentActivityName=".supportsolutions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".supportsolutions" />
+        </activity>
+        <activity
+            android:name=".MainContentUI"
+            android:parentActivityName=".login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" />
+        </activity>
+        <activity android:name=".Calendar" />
+
+
+    </application>
+
+
+
+</manifest>

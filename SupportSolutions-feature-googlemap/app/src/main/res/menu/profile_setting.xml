@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="fname">First name : </item>
+    <item android:title="lname">Last name : </item>
+    <item android:title="lname">Email : </item>
+    <item android:title="lname">Phone : </item>
+    <item android:title="lname">Language : </item>
+    <item android:title="lname">Custody : </item>
+    <item android:title="logout" >Log Out</item>
+
+
+</menu>
