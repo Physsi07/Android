@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "743685672905",
+    "firebase_url": "https://supportsolutions-1c937.firebaseio.com",
+    "project_id": "supportsolutions-1c937",
+    "storage_bucket": "supportsolutions-1c937.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743685672905:android:877c99f5414915ea",
+        "android_client_info": {
+          "package_name": "tech.niocoders.com.supportsolutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743685672905-t2vfekrtarkfsth5q5f11u5ase0gtadt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvU_g71J6epU1-5coVckNFpRs4__fYVLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

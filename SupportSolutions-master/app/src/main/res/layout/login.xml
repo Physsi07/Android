@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tech.niocoders.com.supportsolutions.login">
+
+    <!-- LOGO -->
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="320dp"
+        android:layout_height="145dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
+
+    <!-- EMAIL TEXT -->
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center_vertical"
+        android:text="@string/emaillogin"
+        android:textAlignment="center"
+        android:textColor="@color/btn_background"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:paddingRight="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/email_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo" />
+
+    <!-- EDIT TEXT TO WRITE THE USER EMAIL -->
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:textColor="@color/btn_background"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo" />
+
+    <!-- PASSWORD TEXT -->
+    <TextView
+        android:id="@+id/password_text"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_vertical"
+        android:text="@string/passwordlogin"
+        android:textAlignment="center"
+        android:textColor="@color/btn_background"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/password_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_text" />
+
+    <!-- EDIT TEXT TO WRITE THE USER PASSWORD -->
+    <EditText
+        android:id="@+id/password_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="22dp"
+        android:textColor="@color/btn_background"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_editText" />
+
+    <!-- BUTTON TO LOGIN -->
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btns_background"
+        android:text="@string/login"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_editText" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SupportSolutions</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">dbf609d04588c5e652470ad28a88a2f9ef3be1a1</string>
+    <string name="api_host">https://gateway-a.watsonplatform.net/visual-recognition/api</string>
+
+    <!-- SIGN UP TEXT STRINGS -->
+    <string name="first_name">First Name</string>
+    <string name="second_name">Last Name</string>
+    <string name="phone">Phone #</string>
+    <string name="emailsignup">Email</string>
+    <string name="passwordsignup">Password</string>
+    <string name="gender">Gender</string>
+    <string name="custody">Custody</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="language">language</string>
+
+    <!-- LOGIN TEXT STRINGS -->
+    <string name="emaillogin">Email</string>
+    <string name="passwordlogin">Password</string>
+    <string name="login">LogIn</string>
+
+    <!-- MAIN PAGE TEXT STRINGS -->
+    <string name="login_main">LOGIN</string>
+    <string name="signup_main">SignUp</string>
+
+
+    <string name="pref_sp">spanish</string>
+    <string name="pref_en">english</string>
+</resources>
